@@ -6,12 +6,14 @@
         <title>Administrative Panel</title>
         <!-- BootStrap Import -->
         <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <!-- Header css -->
+        <link rel="stylesheet" href="./css/header.css">
         <!-- Own css -->
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <!-- Criando Painel CMS 1/8 -->
-        <nav class="navbar navbar-default navbar-fixed-top"> <!-- default -->
+        <nav class="navbar navbar-default"> <!-- default --> <!-- navbar-fixed-top -->
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -31,11 +33,27 @@
                         <li><a href="#">Manage team</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Log Out</a></li>
+                        <li><a href="#">Log Out <span class="glyphicon glyphicon-off"></span></a></li>
                     </ul>
                 </div>
             </div> <!-- container -->
         </nav>
+
+        <!-- Criando Painel CMS 2/8 -->
+
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <h2><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Control Panel</h2>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Your last login was in 00/00/00 <span class="glyphicon glyphicon-time"></span></p>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </header>
+
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="./js/bootstrap.min.js"></script>
