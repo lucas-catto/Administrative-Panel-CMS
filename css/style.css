@@ -11,8 +11,9 @@ body{
 }
 
 header#header{
-    background: #333;
-    color:      white;
+    background:   #333;
+    color:        white;
+    margin-bottom: 20px;
 }
 
 header h2{
@@ -23,4 +24,11 @@ header p {
     margin-top: 20px;
     position:   relative;
     top:        -1px;
+}
+
+/* Criando Painel CMS 3/8 */
+
+.form-group textarea{
+    height: 137px;
+    resize: vertical;
 }
